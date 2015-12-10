@@ -1,7 +1,7 @@
 # pizza-templates \n
 Project for Informatics at Warsaw University (Faculty of Mathematics, Informatics, Mechanics)
 Task:
-Create template ```c++ template<typename... Kinds> struct Pizzeria``` which represents Pizzeria and provides the public structure ```c++ template<typename Kind> struct make_pizza``` which represents 8-slices pizza of type ```c++Kind```. The pizza template should provide:
+Create template ```template<typename... Kinds> struct Pizzeria``` which represents Pizzeria and provides the public structure ```c++ template<typename Kind> struct make_pizza``` which represents 8-slices pizza of type ```c++Kind```. The pizza template should provide:
 1.public static method:
   ```c++ template<typename Kind> static constexpr size_t count(); ```
   which returns amount of slices of type 'Kind';
