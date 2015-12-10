@@ -13,4 +13,4 @@ Moreover, create ```template<typename Pizza1, typename Pizza2> struct best_mix;`
 ```static constexpr [any arithmetic type] yumminess(size_t slices)```;  
 'yumminess' should return 0 for 0 slices.  
 The example of use is included in pizza.cc file.  
-Solve this thask in C++11, C++14 or C++1z.
+Solve this thask in C++11, C++14 or C++1z and put your solution into pizza.hh file.
