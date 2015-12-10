@@ -1,6 +1,6 @@
 # pizza-templates \n
 Project for Informatics at Warsaw University (Faculty of Mathematics, Informatics, Mechanics)__
-Task:__
+Task:  
 Create template ```template<typename... Kinds> struct Pizzeria``` which represents Pizzeria and provides the public structure ```template<typename Kind> struct make_pizza``` which represents 8-slices pizza of type ```Kind```. The pizza template should provide:__
 1.public static method:__
   ```template<typename Kind> static constexpr size_t count();```__
